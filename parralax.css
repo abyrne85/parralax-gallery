@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 0px 10px;
+}
+
+.parralax{
+    width: 900px;
+    max-width: 900px;
+    background: lightgrey;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    overflow: scroll;
+}
+
+.parralax-img{
+    object-fit: contain;
+}
